@@ -7,10 +7,9 @@
             "email": "elton.inacio95@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "EltonInacio\\ValidadorCpjCnpj\\": "packages/einacio/cpfCnpjLaravel/src"
+            "EltonInacio\\ValidadorCpjCnpj\\": "src/"
         }
     },
     "require": {

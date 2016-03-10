@@ -1,6 +1,6 @@
 <?php 
 
-namespace EltonInacio\ValidadorCpjCnpj\;
+namespace EltonInacio\ValidadorCpjCnpj;
 
 use Illuminate\Support\ServiceProvider;
 use EltonInacio\ValidadorCpjCnpj\Validation\CpfCnpjValidation;
