@@ -8,6 +8,7 @@
             "email": "elton.inacio95@gmail.com"
         }
     ],
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "EltonInacio\\ValidadorCpjCnpj\\": "src/"
