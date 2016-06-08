@@ -37,9 +37,9 @@ class CpfCnpjValidation extends IlluminateValidator
 	 */
 	protected function validatecpfcnpj($attribute, $value, $parameters)
 	{
-		if (strlen($value)==14) { // cpf
+		if (strlen(preg_replace('/\D/', '', $value))==11) { // cpf
 			return $this->validatecpf($attribute, $value, $parameters);
-		} elseif (strlen($value)==18) { // cnpj
+		} elseif (strlen(preg_replace('/\D/', '', $value))==14) { // cnpj
 			return $this->validatecnpj($attribute, $value, $parameters);
 		}
 	}
