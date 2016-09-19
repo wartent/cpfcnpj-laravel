@@ -1,11 +1,15 @@
 {
-    "name": "eltoninacio/cpfcnpj-laravel",
-    "description": "Validação de cpf, cnpj, cpfcnpj para laravel 5.*",
+    "name": "wartent/cpfcnpj-laravel",
+    "description": "Validação de CPF, CNPJ, CPFCNPJ para laravel 5.*",
     "license": "MIT",
     "authors": [
         {
             "name": "Elton Inacio",
             "email": "elton.inacio95@gmail.com"
+        },
+        {
+            "name": "Guilherme Freire Hack",
+            "email": "gfreirehack@gmail.com"
         }
     ],
     "minimum-stability": "stable",
